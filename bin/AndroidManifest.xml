@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.classprojectmathsquiz2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.classprojectmathsquiz2.WeclomePage"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.classprojectmathsquiz2.GamePage"
+            android:label="@string/title_activity_game_page" >
+        </activity>
+        <activity
+            android:name="com.example.classprojectmathsquiz2.LosePage"
+            android:label="@string/title_activity_lose_page" >
+        </activity>
+        <activity
+            android:name="com.example.classprojectmathsquiz2.WinPage"
+            android:label="@string/title_activity_win_page" >
+        </activity>
+        <activity
+            android:name="com.example.classprojectmathsquiz2.EnterName"
+            android:label="@string/title_activity_enter_name" >
+        </activity>
+    </application>
+
+</manifest>
